@@ -23,7 +23,7 @@ const ListProduct = props => {
 
     return(
         <div>
-            <h1>List Component</h1>
+            <h1>List of Products</h1>
             {
                 listState.map((product, i) => {
                     return (

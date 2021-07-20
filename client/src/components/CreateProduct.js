@@ -36,7 +36,6 @@ const CreateProduct = props => {
                 setSubmitState(!submitState)
             })
             .catch(err => {
-                // console.log(err.response.data)
                 const {errors} = err.response.data
                 let errorObj = {}
                 for(let [key, value] of Object.entries(errors)){
@@ -50,7 +49,7 @@ const CreateProduct = props => {
 
     return(
         <div>
-            <h1>Create</h1>
+            <h1>Create a New Product</h1>
             <form onSubmit={submitHandler}>
                 <p>
                     Title:
