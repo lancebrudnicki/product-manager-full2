@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react"
 import {Link} from "@reach/router"
 import axios from "axios"
 
-const ListComponent = props => {
+const ListProduct = props => {
 
     const {submitState, setSubmitState} = props
 
